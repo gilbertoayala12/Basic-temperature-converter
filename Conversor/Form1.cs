@@ -22,14 +22,13 @@ namespace Conversor
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
-            {
+
                 radioF.Checked = false;
                 radioF.Enabled = false;
                 radioK.Enabled = true;
                 radioC.Enabled = true;
                 textBox2.Clear();
-            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -113,27 +112,25 @@ namespace Conversor
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton2.Checked)
-            {
+
                 radioC.Checked = false;
                 radioF.Enabled = true;
                 radioK.Enabled = true;
                 radioC.Enabled = false;
                 textBox2.Clear();
-            }
+
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
-            {
+
                 radioK.Checked = false;
                 radioF.Enabled = true;
                 radioK.Enabled = false;
                 radioC.Enabled = true;
                 textBox2.Clear();
 
-            }
+
         }
 
         private void radioF_CheckedChanged(object sender, EventArgs e)
