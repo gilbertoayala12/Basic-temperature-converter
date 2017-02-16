@@ -31,7 +31,7 @@ namespace Conversor
                 textBox2.Clear();
             }
         }
-       
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text=="")
@@ -68,7 +68,7 @@ namespace Conversor
                             else if (radioK.Checked)
                             {
                                 tempFinal = ((tempInicial + 273.15));
-                                textBox2.Text = tempFinal + " °K";
+                                textBox2.Text = tempFinal + " K";
                             }
                             break;
 
@@ -81,7 +81,7 @@ namespace Conversor
                             else if(radioK.Checked)
                             {
                                 tempFinal = ((tempInicial - 32) / 1.8) + 273.15;
-                                textBox2.Text = tempFinal.ToString("#.####") + " °K";
+                                textBox2.Text = tempFinal.ToString("#.####") + " K";
                             }
                             break;
                         case 'k':
@@ -104,10 +104,10 @@ namespace Conversor
                     textBox1.Clear();
                     textBox1.Focus();
 
-                    
+
                 }
-                
-                
+
+
             }
         }
 
